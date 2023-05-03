@@ -1,6 +1,6 @@
 const router = require('express').Router();
 
-const { Post, Comment, User } = require('../models/index');
+const { Post, Comment, User } = require('../models/index.js');
 
 router.get('/', async (req, res) => {
   try {
