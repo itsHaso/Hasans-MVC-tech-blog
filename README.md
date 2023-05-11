@@ -1,2 +1,2 @@
-Tech Blog Application
+# Tech Blog Application
 The Tech Blog Application is a full-stack web application for publishing articles, tutorials, and discussions related to technology. The application is built using the Model-View-Controller (MVC) architecture pattern, with a backend powered by Node.js, Express.js, and Sequelize, and a frontend built with HTML, CSS, and JavaScript. The application allows users to create accounts, create and edit posts, comment on posts, and view posts and comments from other users. The application also includes user authentication and authorization features to ensure the security and privacy of user data.
