@@ -1,9 +1,9 @@
 :root {
-    --primary: #ccdad1;
-    --secondary: #9caea9;
-    --tertiary: #788585;
-    --light-dark: #6f6866;
-    --dark: #38302e;
+    --primary: #becac2;
+    --secondary: #92a39e;
+    --tertiary: #6f7c7c;
+    --light-dark: #665f5d;
+    --dark: #2e2726;
     --border-radius: 0.3rem;
   }
   
@@ -166,7 +166,6 @@
     text-decoration: none;
   }
   
-  /* CARDS */
   .card {
     margin: 0 0 20px 0;
     border: 3px solid var(--dark);
@@ -184,7 +183,6 @@
     padding: 1%;
   }
   
-  /* FORM */
   .form-label,
   .form-input,
   .form-textarea {
@@ -205,7 +203,6 @@
     border-radius: var(--border-radius);
   }
   
-  /* HEIGHT / WIDTH UTILS */
   .min-100-vh {
     min-height: 100vh;
   }
@@ -214,12 +211,10 @@
     min-width: 100vw;
   }
   
-  /* FONT UTILS */
   .text-uppercase {
     text-transform: uppercase;
   }
   
-  /* FLEX CONTENT */
   .flex-row {
     display: flex;
     flex-wrap: wrap;

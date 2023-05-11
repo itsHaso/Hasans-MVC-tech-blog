@@ -2,7 +2,7 @@ const router = require('express').Router();
 
 const { Post, Comment, User } = require('../models/index');
 
-
+// Route to display all posts and their associated user
 router.get('/', async (req, res) => {
   try {
     const postData = await Post.findAll({
@@ -17,6 +17,7 @@ router.get('/', async (req, res) => {
   }
 });
 
+// Route to display a single post, its associated user, and comments
 router.get('/post/:id', async (req, res) => {
   try {
     const postData = await Post.findByPk(req.params.id, {
@@ -42,6 +43,7 @@ router.get('/post/:id', async (req, res) => {
   }
 });
 
+// Route to display the login form
 router.get('/login', (req, res) => {
   if (req.session.loggedIn) {
     res.redirect('/');
@@ -51,6 +53,7 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 
+// Route to display the signup form
 router.get('/signup', (req, res) => {
   if (req.session.loggedIn) {
     res.redirect('/');
