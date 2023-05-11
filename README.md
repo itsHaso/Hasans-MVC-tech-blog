@@ -1,7 +1,2 @@
-# MVC-tech-blog
-
-I am putting the knowledge i learned on the the model-view-controller lesson to use in this tech blog application 
-
-![image](https://user-images.githubusercontent.com/117330115/236062187-4d881c13-ffda-4c88-9f95-b8acc8477150.png)
-^what the page looks like when you load into it
-
+Tech Blog Application
+The Tech Blog Application is a full-stack web application for publishing articles, tutorials, and discussions related to technology. The application is built using the Model-View-Controller (MVC) architecture pattern, with a backend powered by Node.js, Express.js, and Sequelize, and a frontend built with HTML, CSS, and JavaScript. The application allows users to create accounts, create and edit posts, comment on posts, and view posts and comments from other users. The application also includes user authentication and authorization features to ensure the security and privacy of user data.
